@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/white"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_mainscreen_titleIcon"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_mainscreen_titleNote"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="运动"
+            android:layout_weight="4"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/run_model_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:background="@android:color/white"
+        android:entries="@array/model"
+        android:popupBackground="@android:color/white" />
+
+    <TextView
+        android:id="@+id/Run_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_weight="0.33"
+        android:ems="30"
+        android:fontFamily="sans-serif"
+        android:text="12.6km"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="90sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="match_parent"
+            android:layout_height="140px"
+            android:layout_weight="1"
+            android:text="00:12:13"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/speed"
+            android:layout_width="match_parent"
+            android:layout_height="140px"
+            android:layout_weight="1"
+            android:inputType="none"
+            android:text="6min/1km"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/run_start"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:cropToPadding="true"
+            android:src="@drawable/start" />
+
+        <ImageButton
+            android:id="@+id/run_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:elevation="0dp"
+            android:src="@drawable/stop" />
+
+        <ImageButton
+            android:id="@+id/run_end"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:src="@drawable/map" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

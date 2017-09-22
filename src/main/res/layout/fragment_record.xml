@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/indigo" >
+
+    <Button
+        android:id="@+id/pulldown_scrollview_btn"
+        android:text="@string/pulldown_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/stretch_scrollview_btn"
+        android:text="@string/stretch_scrollview"
+        android:layout_below="@id/pulldown_scrollview_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

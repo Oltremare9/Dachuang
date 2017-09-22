@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/white" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="487dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_mainscreen_titleNote"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="马拉松赛事"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/match"
+            android:background="@color/ghostwhite"
+            android:textSize="20sp"
+            android:transcriptMode="normal" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="match">
+        <item>北京马拉松城市赛事</item>
+        <item>厦门城市马拉松</item>
+        <item>南京马拉松</item>
+        <item>北京马拉松城市赛事</item>
+        <item>厦门国际马拉松</item>
+        <item>南京马拉松</item>
+        <item>北京马拉松城市赛事</item>
+        <item>纽约城市马拉松</item>
+    </string-array>
+</resources>
